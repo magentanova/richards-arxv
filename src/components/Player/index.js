@@ -22,7 +22,7 @@ const parseParams = paramString => {
 const Player = props => {
     const queryParams = parseParams(props.location.search)
     const startPos = parseInt(queryParams.startPos)
-    const endPos = parseInt(queryParams.endPos)
+    let endPos = parseInt(queryParams.endPos)
     
     useEffect(() => {
         setTimeout(() => {
@@ -33,13 +33,16 @@ const Player = props => {
                     "fullScreen": true,
                     "liveui": false  ,
                     "preload": "auto" 
-                },
-                function(){
-                    console.log('setting current time')
-                    this.currentTime(0)
-                    console.log(this.currentTime())
+                }, function() {
+                    this.currentTime(0);
+                    // done twice because there are issues with race conditions
                 }
             );
+
+            player.on('loadedmetadata', function(){
+                this.currentTime(0);
+            });
+
 
             // make spacebar a play toggle
             window.addEventListener('keydown', e => {
@@ -53,7 +56,7 @@ const Player = props => {
                 }
             });
 
-            // can't go past the end
+            // can't go past the end of the clip
             player.on("timeupdate", e => {
                 // console.log(player.currentTime())
                 if (player.currentTime() > (endPos - startPos)) {
@@ -65,12 +68,17 @@ const Player = props => {
             videojs.use("*", function(player) {
                 return {
                     currentTime: ct => {
-                        // console.log('getting current time')
-                        // console.log(ct, startPos, ct - startPos)
                         return ct - startPos
                     },
-                    duration: () => (endPos - startPos),
-                    setCurrentTime: ct => ct + startPos
+                    duration: () => {
+                        if (!endPos) {
+                            endPos = $("video").duration;
+                        }
+                        return (endPos - startPos)
+                    },
+                    setCurrentTime: ct => {
+                        return ct + startPos
+                    }
                 }
             })
         }, 25)
