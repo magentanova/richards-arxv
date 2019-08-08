@@ -35,7 +35,9 @@ const Player = props => {
                     "preload": "auto" 
                 },
                 function(){
-                    this.currentTime(startPos)
+                    console.log('setting current time')
+                    this.currentTime(0)
+                    console.log(this.currentTime())
                 }
             );
 
@@ -53,6 +55,7 @@ const Player = props => {
 
             // can't go past the end
             player.on("timeupdate", e => {
+                // console.log(player.currentTime())
                 if (player.currentTime() > (endPos - startPos)) {
                     player.pause()
                 }
@@ -61,7 +64,11 @@ const Player = props => {
             // middleware for getting current time and duration
             videojs.use("*", function(player) {
                 return {
-                    currentTime: ct => ct - startPos,
+                    currentTime: ct => {
+                        // console.log('getting current time')
+                        // console.log(ct, startPos, ct - startPos)
+                        return ct - startPos
+                    },
                     duration: () => (endPos - startPos),
                     setCurrentTime: ct => ct + startPos
                 }
