@@ -77,8 +77,8 @@ const Player = props => {
     }, [])
     return (
         <video className='video-js' id="video-player">
-            {/* <source src={PATH_PREFIX + props.match.params.filename} /> */}
-            <source src="https://vjs.zencdn.net/v/oceans.mp4" />
+            <source src={PATH_PREFIX + props.match.params.filename} />
+            {/* <source src="https://vjs.zencdn.net/v/oceans.mp4" /> */}
         </video>
     )
 }
