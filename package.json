@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-video-js-player": "^1.1.1",
+    "videojs": "^1.0.0",
+    "videojs-offset": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3"
   }
 }

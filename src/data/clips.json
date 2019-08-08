@@ -1,0 +1,912 @@
+{
+    "Sep-03_to_Apr-04": {
+        "start_date": "Sep-03",
+        "end_date": "Apr-04",
+        "clips": {
+            "2003_07%20-%202004_0203.mp4__Ridgewood Christmas": {
+                "start_pos": 2186,
+                "end_pos": "UNK",
+                "title": "Ridgewood Christmas",
+                "mp4_filename": "2003_07%20-%202004_02.mp4"
+            },
+            "2003_07%20-%202004_0202.mp4__Ridgewood Shenanagins": {
+                "start_pos": 1733,
+                "end_pos": 2186,
+                "title": "Ridgewood Shenanagins",
+                "mp4_filename": "2003_07%20-%202004_02.mp4"
+            },
+            "2003_07%20-%202004_0201.mp4__Spongedock Shenanagins": {
+                "start_pos": 0,
+                "end_pos": 1733,
+                "title": "Spongedock Shenanagins",
+                "mp4_filename": "2003_07%20-%202004_02.mp4"
+            }
+        },
+        "display_title": "Sep-03 to Apr-04"
+    },
+    "May-03_to_Jul-03": {
+        "start_date": "May-03",
+        "end_date": "Jul-03",
+        "clips": {
+            "2003_05%20-%202003_0706.mp4__Brush with the Law in St. Augustine": {
+                "start_pos": 2937,
+                "end_pos": "UNK",
+                "title": "Brush with the Law in St. Augustine",
+                "mp4_filename": "2003_05%20-%202003_07.mp4"
+            },
+            "2003_05%20-%202003_0705.mp4__Jusitn's IB Graduation Party/Ben's visit": {
+                "start_pos": 1684,
+                "end_pos": 2937,
+                "title": "Jusitn's IB Graduation Party/Ben's visit",
+                "mp4_filename": "2003_05%20-%202003_07.mp4"
+            },
+            "2003_05%20-%202003_0704.mp4__Justin's High School Graduation": {
+                "start_pos": 928,
+                "end_pos": 1684,
+                "title": "Justin's High School Graduation",
+                "mp4_filename": "2003_05%20-%202003_07.mp4"
+            },
+            "2003_05%20-%202003_0703.mp4__Justin's IB Banquet": {
+                "start_pos": 777,
+                "end_pos": 928,
+                "title": "Justin's IB Banquet",
+                "mp4_filename": "2003_05%20-%202003_07.mp4"
+            },
+            "2003_05%20-%202003_0702.mp4__Justin's IB Award": {
+                "start_pos": 616,
+                "end_pos": 777,
+                "title": "Justin's IB Award",
+                "mp4_filename": "2003_05%20-%202003_07.mp4"
+            },
+            "2003_05%20-%202003_0701.mp4__National Merit": {
+                "start_pos": 0,
+                "end_pos": 616,
+                "title": "National Merit",
+                "mp4_filename": "2003_05%20-%202003_07.mp4"
+            }
+        },
+        "display_title": "May-03 to Jul-03"
+    },
+    "Nov-02_to_May-03": {
+        "start_date": "Nov-02",
+        "end_date": "May-03",
+        "clips": {
+            "2002_11%20-%202003_0505.mp4__Mom's Performance First Christian": {
+                "start_pos": 3036,
+                "end_pos": "UNK",
+                "title": "Mom's Performance First Christian",
+                "mp4_filename": "2002_11%20-%202003_05.mp4"
+            },
+            "2002_11%20-%202003_0504.mp4__Alex Drum Performance": {
+                "start_pos": 2693,
+                "end_pos": 3036,
+                "title": "Alex Drum Performance",
+                "mp4_filename": "2002_11%20-%202003_05.mp4"
+            },
+            "2002_11%20-%202003_0503.mp4__Arthur & Nick Stop by for Christmas": {
+                "start_pos": 2434,
+                "end_pos": 2693,
+                "title": "Arthur & Nick Stop by for Christmas",
+                "mp4_filename": "2002_11%20-%202003_05.mp4"
+            },
+            "2002_11%20-%202003_0502.mp4__Christmas": {
+                "start_pos": 624,
+                "end_pos": 2434,
+                "title": "Christmas",
+                "mp4_filename": "2002_11%20-%202003_05.mp4"
+            },
+            "2002_11%20-%202003_0501.mp4__Jousting - Alex and Friends School Project": {
+                "start_pos": 0,
+                "end_pos": 624,
+                "title": "Jousting - Alex and Friends School Project",
+                "mp4_filename": "2002_11%20-%202003_05.mp4"
+            }
+        },
+        "display_title": "Nov-02 to May-03"
+    },
+    "Apr-02_to_Apr-02": {
+        "start_date": "Apr-02",
+        "end_date": "Apr-02",
+        "clips": {
+            "2003_07%20-%202004_0204.mp4__Picnic Key Everglades Camping": {
+                "start_pos": 3450,
+                "end_pos": "UNK",
+                "title": "Picnic Key Everglades Camping",
+                "mp4_filename": "2003_07%20-%202004_02.mp4"
+            }
+        },
+        "display_title": "Apr-02 to Apr-02"
+    },
+    "Apr-01_to_Sep-01": {
+        "start_date": "Apr-01",
+        "end_date": "Sep-01",
+        "clips": {
+            "2001_04%20-%202001_0906.mp4__Justin's IB Spoofcast": {
+                "start_pos": 2818,
+                "end_pos": "UNK",
+                "title": "Justin's IB Spoofcast",
+                "mp4_filename": "2001_04%20-%202001_09.mp4"
+            },
+            "2001_04%20-%202001_0905.mp4__Alex's Birthday": {
+                "start_pos": 2191,
+                "end_pos": 2818,
+                "title": "Alex's Birthday",
+                "mp4_filename": "2001_04%20-%202001_09.mp4"
+            },
+            "2001_04%20-%202001_0904.mp4__Mom's Performances": {
+                "start_pos": 1370,
+                "end_pos": 2191,
+                "title": "Mom's Performances",
+                "mp4_filename": "2001_04%20-%202001_09.mp4"
+            },
+            "2001_04%20-%202001_0903.mp4__Dinosaur State Park, CT": {
+                "start_pos": 764,
+                "end_pos": 1370,
+                "title": "Dinosaur State Park, CT",
+                "mp4_filename": "2001_04%20-%202001_09.mp4"
+            },
+            "2001_04%20-%202001_0902.mp4__Preston's Christening": {
+                "start_pos": 262,
+                "end_pos": 764,
+                "title": "Preston's Christening",
+                "mp4_filename": "2001_04%20-%202001_09.mp4"
+            },
+            "2001_04%20-%202001_0901.mp4__Emma Washburn Ave": {
+                "start_pos": 0,
+                "end_pos": 262,
+                "title": "Emma Washburn Ave",
+                "mp4_filename": "2001_04%20-%202001_09.mp4"
+            }
+        },
+        "display_title": "Apr-01 to Sep-01"
+    },
+    "Dec-00_to_Jan-01": {
+        "start_date": "Dec-00",
+        "end_date": "Jan-01",
+        "clips": {
+            "2000_12%20-%202001_0104.mp4__One and Only Paid Gig": {
+                "start_pos": 2916,
+                "end_pos": "UNK",
+                "title": "One and Only Paid Gig",
+                "mp4_filename": "2000_12%20-%202001_01.mp4"
+            },
+            "2000_12%20-%202001_0103.mp4__Goodbye Treehouse Hello Pool": {
+                "start_pos": 2885,
+                "end_pos": 2916,
+                "title": "Goodbye Treehouse Hello Pool",
+                "mp4_filename": "2000_12%20-%202001_01.mp4"
+            },
+            "2000_12%20-%202001_0102.mp4__Christmas w/Arthur and Nick": {
+                "start_pos": 1975,
+                "end_pos": 2885,
+                "title": "Christmas w/Arthur and Nick",
+                "mp4_filename": "2000_12%20-%202001_01.mp4"
+            },
+            "2000_12%20-%202001_0101.mp4__Christmas": {
+                "start_pos": 0,
+                "end_pos": 1975,
+                "title": "Christmas",
+                "mp4_filename": "2000_12%20-%202001_01.mp4"
+            }
+        },
+        "display_title": "Dec-00 to Jan-01"
+    },
+    "Aug-00_to_Dec-00": {
+        "start_date": "Aug-00",
+        "end_date": "Dec-00",
+        "clips": {
+            "2000_08%20-%202000_1205.mp4__Island Packet Adventures (sailing)": {
+                "start_pos": 520,
+                "end_pos": "UNK",
+                "title": "Island Packet Adventures (sailing)",
+                "mp4_filename": "2000_08%20-%202000_12.mp4"
+            },
+            "2000_08%20-%202000_1204.mp4__Pre Prom Gathering": {
+                "start_pos": 339,
+                "end_pos": 520,
+                "title": "Pre Prom Gathering",
+                "mp4_filename": "2000_08%20-%202000_12.mp4"
+            },
+            "2000_08%20-%202000_1203.mp4__Prom Corsage Pick up": {
+                "start_pos": 240,
+                "end_pos": 339,
+                "title": "Prom Corsage Pick up",
+                "mp4_filename": "2000_08%20-%202000_12.mp4"
+            },
+            "2000_08%20-%202000_1202.mp4__Justin's Swim Meet": {
+                "start_pos": 42,
+                "end_pos": 240,
+                "title": "Justin's Swim Meet",
+                "mp4_filename": "2000_08%20-%202000_12.mp4"
+            },
+            "2000_08%20-%202000_1201.mp4__Leaving Gatlinburg": {
+                "start_pos": 0,
+                "end_pos": 42,
+                "title": "Leaving Gatlinburg",
+                "mp4_filename": "2000_08%20-%202000_12.mp4"
+            }
+        },
+        "display_title": "Aug-00 to Dec-00"
+    },
+    "Dec-99_to_Aug-00": {
+        "start_date": "Dec-99",
+        "end_date": "Aug-00",
+        "clips": {
+            "1999_12%20-%202000_0806.mp4__Refreshing Mountain Plunge": {
+                "start_pos": 1063,
+                "end_pos": "UNK",
+                "title": "Refreshing Mountain Plunge",
+                "mp4_filename": "1999_12%20-%202000_08.mp4"
+            },
+            "1999_12%20-%202000_0805.mp4__Exploring Gatlinburg By Hoof and Wheel": {
+                "start_pos": 818,
+                "end_pos": 1063,
+                "title": "Exploring Gatlinburg By Hoof and Wheel",
+                "mp4_filename": "1999_12%20-%202000_08.mp4"
+            },
+            "1999_12%20-%202000_0804.mp4__Play Ball/Alex Little League": {
+                "start_pos": 748,
+                "end_pos": 818,
+                "title": "Play Ball/Alex Little League",
+                "mp4_filename": "1999_12%20-%202000_08.mp4"
+            },
+            "1999_12%20-%202000_0803.mp4__Doing the Bushes": {
+                "start_pos": 603,
+                "end_pos": 748,
+                "title": "Doing the Bushes",
+                "mp4_filename": "1999_12%20-%202000_08.mp4"
+            },
+            "1999_12%20-%202000_0802.mp4__Ruthie and Helen": {
+                "start_pos": 493,
+                "end_pos": 603,
+                "title": "Ruthie and Helen",
+                "mp4_filename": "1999_12%20-%202000_08.mp4"
+            },
+            "1999_12%20-%202000_0801.mp4__New Years at Gino's": {
+                "start_pos": 0,
+                "end_pos": 493,
+                "title": "New Years at Gino's",
+                "mp4_filename": "1999_12%20-%202000_08.mp4"
+            }
+        },
+        "display_title": "Dec-99 to Aug-00"
+    },
+    "Oct-98_to_Dec-99": {
+        "start_date": "Oct-98",
+        "end_date": "Dec-99",
+        "clips": {
+            "1998_10%20-%201999_1205.mp4__Bustin' Coconuts": {
+                "start_pos": 3939,
+                "end_pos": "UNK",
+                "title": "Bustin' Coconuts",
+                "mp4_filename": "1998_10%20-%201999_12.mp4"
+            },
+            "1998_10%20-%201999_1204.mp4__Christmas at Home '99": {
+                "start_pos": 1728,
+                "end_pos": 3939,
+                "title": "Christmas at Home '99",
+                "mp4_filename": "1998_10%20-%201999_12.mp4"
+            },
+            "1998_10%20-%201999_1203.mp4__Chistmas at Peter's": {
+                "start_pos": 1551,
+                "end_pos": 1728,
+                "title": "Chistmas at Peter's",
+                "mp4_filename": "1998_10%20-%201999_12.mp4"
+            },
+            "1998_10%20-%201999_1202.mp4__Christmas at Home'98": {
+                "start_pos": 127,
+                "end_pos": 1551,
+                "title": "Christmas at Home'98",
+                "mp4_filename": "1998_10%20-%201999_12.mp4"
+            },
+            "1998_10%20-%201999_1201.mp4__Gambling Halloween": {
+                "start_pos": 24,
+                "end_pos": 127,
+                "title": "Gambling Halloween",
+                "mp4_filename": "1998_10%20-%201999_12.mp4"
+            }
+        },
+        "display_title": "Oct-98 to Dec-99"
+    },
+    "May-97_to_Oct-98": {
+        "start_date": "May-97",
+        "end_date": "Oct-98",
+        "clips": {
+            "1997_05%20-%201998_1008.mp4__Tallying the Haul - Halloween Gambling": {
+                "start_pos": 3216,
+                "end_pos": "UNK",
+                "title": "Tallying the Haul - Halloween Gambling",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1007.mp4__Assembly Required - Installing B'ball": {
+                "start_pos": 3028,
+                "end_pos": 3216,
+                "title": "Assembly Required - Installing B'ball",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1006.mp4__Wizard of Oz? w/Alex cameo": {
+                "start_pos": 2185,
+                "end_pos": 3028,
+                "title": "Wizard of Oz? w/Alex cameo",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1005.mp4__Justin's PRIDE Award": {
+                "start_pos": 1546,
+                "end_pos": 2185,
+                "title": "Justin's PRIDE Award",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1004.mp4__Early Carpentry/Alex Building skate board ramp": {
+                "start_pos": 1420,
+                "end_pos": 1546,
+                "title": "Early Carpentry/Alex Building skate board ramp",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1003.mp4__Another Round of Soccer": {
+                "start_pos": 1235,
+                "end_pos": 1420,
+                "title": "Another Round of Soccer",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1002.mp4__Howard Park Sailing w/Ed": {
+                "start_pos": 638,
+                "end_pos": 1235,
+                "title": "Howard Park Sailing w/Ed",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            },
+            "1997_05%20-%201998_1001.mp4__Toyland": {
+                "start_pos": 0,
+                "end_pos": 638,
+                "title": "Toyland",
+                "mp4_filename": "1997_05%20-%201998_10.mp4"
+            }
+        },
+        "display_title": "May-97 to Oct-98"
+    },
+    "Apr-95_to_Dec-96": {
+        "start_date": "Apr-95",
+        "end_date": "Dec-96",
+        "clips": {
+            "1995_04%20-%201996_1210.mp4__Christmas at Home": {
+                "start_pos": 2425,
+                "end_pos": "UNK",
+                "title": "Christmas at Home",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1209.mp4__Soccer Boys": {
+                "start_pos": 2274,
+                "end_pos": 2425,
+                "title": "Soccer Boys",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1208.mp4__Alex 3rd Grade Performance": {
+                "start_pos": 1984,
+                "end_pos": 2274,
+                "title": "Alex 3rd Grade Performance",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1207.mp4__Just Hanging out at Home": {
+                "start_pos": 1645,
+                "end_pos": 1984,
+                "title": "Just Hanging out at Home",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1206.mp4__His Majesty Cinderella": {
+                "start_pos": 1388,
+                "end_pos": 1645,
+                "title": "His Majesty Cinderella",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1205.mp4__Justin applying Alex's Halloween make up playing football": {
+                "start_pos": 1026,
+                "end_pos": 1388,
+                "title": "Justin applying Alex's Halloween make up playing football",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1204.mp4__Alex Doing Homework": {
+                "start_pos": 857,
+                "end_pos": 1026,
+                "title": "Alex Doing Homework",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1203.mp4__Justin's B'Day w/Friends": {
+                "start_pos": 666,
+                "end_pos": 857,
+                "title": "Justin's B'Day w/Friends",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1202.mp4__Jumping Rope Roller Blading": {
+                "start_pos": 272,
+                "end_pos": 666,
+                "title": "Jumping Rope Roller Blading",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            },
+            "1995_04%20-%201996_1201.mp4__Mikado cont'd After Party": {
+                "start_pos": 1,
+                "end_pos": 272,
+                "title": "Mikado cont'd After Party",
+                "mp4_filename": "1995_04%20-%201996_12.mp4"
+            }
+        },
+        "display_title": "Apr-95 to Dec-96"
+    },
+    "Aug-94_to_Apr-95": {
+        "start_date": "Aug-94",
+        "end_date": "Apr-95",
+        "clips": {
+            "1994_08%20-%201995_0407.mp4__Mikado": {
+                "start_pos": 3978,
+                "end_pos": "UNK",
+                "title": "Mikado",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            },
+            "1994_08%20-%201995_0406.mp4__Art & Ruthie": {
+                "start_pos": 3534,
+                "end_pos": 3978,
+                "title": "Art & Ruthie",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            },
+            "1994_08%20-%201995_0405.mp4__Game of Life and POGS": {
+                "start_pos": 3150,
+                "end_pos": 3534,
+                "title": "Game of Life and POGS",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            },
+            "1994_08%20-%201995_0404.mp4__Christmas morning": {
+                "start_pos": 1863,
+                "end_pos": 3150,
+                "title": "Christmas morning",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            },
+            "1994_08%20-%201995_0403.mp4__Student of the Month": {
+                "start_pos": 1653,
+                "end_pos": 1863,
+                "title": "Student of the Month",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            },
+            "1994_08%20-%201995_0402.mp4__Boys at Play": {
+                "start_pos": 1029,
+                "end_pos": 1653,
+                "title": "Boys at Play",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            },
+            "1994_08%20-%201995_0401.mp4__Justin's B'day": {
+                "start_pos": 0,
+                "end_pos": 1029,
+                "title": "Justin's B'day",
+                "mp4_filename": "1994_08%20-%201995_04.mp4"
+            }
+        },
+        "display_title": "Aug-94 to Apr-95"
+    },
+    "Dec-93_to_Jun-94": {
+        "start_date": "Dec-93",
+        "end_date": "Jun-94",
+        "clips": {
+            "1993_12%20-%201994_0705.mp4__Nick's Pool": {
+                "start_pos": 2426,
+                "end_pos": "UNK",
+                "title": "Nick's Pool",
+                "mp4_filename": "1993_12%20-%201994_07.mp4"
+            },
+            "1993_12%20-%201994_0704.mp4__Howard Park - Parkas Stratis Picnic": {
+                "start_pos": 1968,
+                "end_pos": 2426,
+                "title": "Howard Park - Parkas Stratis Picnic",
+                "mp4_filename": "1993_12%20-%201994_07.mp4"
+            },
+            "1993_12%20-%201994_0703.mp4__Ridgewood Construction": {
+                "start_pos": 1132,
+                "end_pos": 1968,
+                "title": "Ridgewood Construction",
+                "mp4_filename": "1993_12%20-%201994_07.mp4"
+            },
+            "1993_12%20-%201994_0702.mp4__Lowry Park Zoo": {
+                "start_pos": 877,
+                "end_pos": 1132,
+                "title": "Lowry Park Zoo",
+                "mp4_filename": "1993_12%20-%201994_07.mp4"
+            }
+        },
+        "display_title": "Dec-93 to Jun-94"
+    },
+    "Dec-93_to_Jul-94": {
+        "start_date": "Dec-93",
+        "end_date": "Jul-94",
+        "clips": {
+            "1993_12%20-%201994_0701.mp4__Christmas at Nick's": {
+                "start_pos": 0,
+                "end_pos": "UNK",
+                "title": "Christmas at Nick's",
+                "mp4_filename": "1993_12%20-%201994_07.mp4"
+            }
+        },
+        "display_title": "Dec-93 to Jul-94"
+    },
+    "Apr-93_to_Oct-93": {
+        "start_date": "Apr-93",
+        "end_date": "Oct-93",
+        "clips": {
+            "1993_04%20-%201993_1011.mp4__Boys Reading/ More Tutelage": {
+                "start_pos": 2933,
+                "end_pos": "UNK",
+                "title": "Boys Reading/ More Tutelage",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1010.mp4__One Scary Ghost": {
+                "start_pos": 2729,
+                "end_pos": 2933,
+                "title": "One Scary Ghost",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1009.mp4__Underwear Boys": {
+                "start_pos": 2628,
+                "end_pos": 2729,
+                "title": "Underwear Boys",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1008.mp4__Arrival at Nick's": {
+                "start_pos": 2459,
+                "end_pos": 2628,
+                "title": "Arrival at Nick's",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1007.mp4__Justin's 8th Birthday": {
+                "start_pos": 2418,
+                "end_pos": 2459,
+                "title": "Justin's 8th Birthday",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1006.mp4__Homework Helper": {
+                "start_pos": 1999,
+                "end_pos": 2418,
+                "title": "Homework Helper",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1005.mp4__More Help in the Kitchen": {
+                "start_pos": 1781,
+                "end_pos": 1999,
+                "title": "More Help in the Kitchen",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1004.mp4__Boys Cleaning Up": {
+                "start_pos": 1623,
+                "end_pos": 1781,
+                "title": "Boys Cleaning Up",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1003.mp4__Young Ben/ Alex's 5th B'Day": {
+                "start_pos": 427,
+                "end_pos": 1623,
+                "title": "Young Ben/ Alex's 5th B'Day",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            },
+            "1993_04%20-%201993_1002.mp4__Alex Kindergarten Graduation": {
+                "start_pos": 0,
+                "end_pos": 427,
+                "title": "Alex Kindergarten Graduation",
+                "mp4_filename": "1993_04%20-%201993_10.mp4"
+            }
+        },
+        "display_title": "Apr-93 to Oct-93"
+    },
+    "Jun-92_to_Mar-93": {
+        "start_date": "Jun-92",
+        "end_date": "Mar-93",
+        "clips": {
+            "1992_06%20-%201993_0310.mp4__The Last Great Snowman": {
+                "start_pos": 2864,
+                "end_pos": "UNK",
+                "title": "The Last Great Snowman",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0309.mp4__Love the Lollipops": {
+                "start_pos": 2611,
+                "end_pos": 2864,
+                "title": "Love the Lollipops",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0308.mp4__Final Blizzard in Arlington": {
+                "start_pos": 2298,
+                "end_pos": 2611,
+                "title": "Final Blizzard in Arlington",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0307.mp4__Best Puppet Show Ever": {
+                "start_pos": 2046,
+                "end_pos": 2298,
+                "title": "Best Puppet Show Ever",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0306.mp4__Helping with Dinner": {
+                "start_pos": 1891,
+                "end_pos": 2046,
+                "title": "Helping with Dinner",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0305.mp4__Backgammon begins and other Fun Stuff": {
+                "start_pos": 1675,
+                "end_pos": 1891,
+                "title": "Backgammon begins and other Fun Stuff",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0304.mp4__Alex's 5th B'day Kids and Friends": {
+                "start_pos": 1513,
+                "end_pos": 1675,
+                "title": "Alex's 5th B'day Kids and Friends",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0303.mp4__Alex's 5th B'Day Richards/Stratis/Levis": {
+                "start_pos": 511,
+                "end_pos": 1513,
+                "title": "Alex's 5th B'Day Richards/Stratis/Levis",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0302.mp4__More Bedtime Fun and Reading": {
+                "start_pos": 370,
+                "end_pos": 511,
+                "title": "More Bedtime Fun and Reading",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            },
+            "1992_06%20-%201993_0301.mp4__Biking, Playing in the Woods": {
+                "start_pos": 0,
+                "end_pos": 370,
+                "title": "Biking, Playing in the Woods",
+                "mp4_filename": "1992_06%20-%201993_03.mp4"
+            }
+        },
+        "display_title": "Jun-92 to Mar-93"
+    },
+    "Oct-91_to_Feb-92": {
+        "start_date": "Oct-91",
+        "end_date": "Feb-92",
+        "clips": {
+            "1991_06%20-%201991_1213.mp4__Great Halloween Caper": {
+                "start_pos": 5661,
+                "end_pos": "UNK",
+                "title": "Great Halloween Caper",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1212.mp4__Making Cookies w/Mom": {
+                "start_pos": 5404,
+                "end_pos": 5661,
+                "title": "Making Cookies w/Mom",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1211.mp4__Puzzles & Mathw/Dad,�\n  Justin Teaching, w/ disclosure statement": {
+                "start_pos": 4764,
+                "end_pos": 5404,
+                "title": "Puzzles & Mathw/Dad,�\n  Justin Teaching, w/ disclosure statement",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1210.mp4__Boys Goofing Dancing in Kitchen, Christmas w/Ruthie": {
+                "start_pos": 4094,
+                "end_pos": 4764,
+                "title": "Boys Goofing Dancing in Kitchen, Christmas w/Ruthie",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1214.mp4__Alex wants to go outside (from ~'89)": {
+                "start_pos": 5804,
+                "end_pos": 4094,
+                "title": "Alex wants to go outside (from ~'89)",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            }
+        },
+        "display_title": "Oct-91 to Feb-92"
+    },
+    "Aug-91_to_Oct-91": {
+        "start_date": "Aug-91",
+        "end_date": "Oct-91",
+        "clips": {
+            "1991_06%20-%201991_1209.mp4__Arlington w/Art": {
+                "start_pos": 3843,
+                "end_pos": "UNK",
+                "title": "Arlington w/Art",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1208.mp4__Duane & Tracy Wachussett Mt.": {
+                "start_pos": 3435,
+                "end_pos": 3843,
+                "title": "Duane & Tracy Wachussett Mt.",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1207.mp4__Justin's 6th B/day w/kids": {
+                "start_pos": 2803,
+                "end_pos": 3435,
+                "title": "Justin's 6th B/day w/kids",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            }
+        },
+        "display_title": "Aug-91 to Oct-91"
+    },
+    "Jun-91_to_Sep-91": {
+        "start_date": "Jun-91",
+        "end_date": "Sep-91",
+        "clips": {
+            "1991_06%20-%201991_1206.mp4__Playing Life w/Art": {
+                "start_pos": 2448,
+                "end_pos": "UNK",
+                "title": "Playing Life w/Art",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1205.mp4__Cape Beach Dennis w/Grandma": {
+                "start_pos": 1651,
+                "end_pos": 2448,
+                "title": "Cape Beach Dennis w/Grandma",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1204.mp4__Parker's last visit to Groton": {
+                "start_pos": 1306,
+                "end_pos": 1651,
+                "title": "Parker's last visit to Groton",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1203.mp4__Stone Soup Justin's 1st Performance": {
+                "start_pos": 659,
+                "end_pos": 1306,
+                "title": "Stone Soup Justin's 1st Performance",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1202.mp4__Camp by the Bay": {
+                "start_pos": 159,
+                "end_pos": 659,
+                "title": "Camp by the Bay",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            },
+            "1991_06%20-%201991_1201.mp4__Flexiblocks Boogie": {
+                "start_pos": 0,
+                "end_pos": 159,
+                "title": "Flexiblocks Boogie",
+                "mp4_filename": "1991_06%20-%201991_12.mp4"
+            }
+        },
+        "display_title": "Jun-91 to Sep-91"
+    },
+    "Jan-88_to_Sep-89": {
+        "start_date": "Jan-88",
+        "end_date": "Sep-89",
+        "clips": {
+            "richards%20fam%208910.mp4__Ralph & Mame visit Groton": {
+                "start_pos": 3183,
+                "end_pos": "UNK",
+                "title": "Ralph & Mame visit Groton",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208909.mp4__Alex's 1st B'Day w/Richards'": {
+                "start_pos": 2854,
+                "end_pos": 3183,
+                "title": "Alex's 1st B'Day w/Richards'",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208908.mp4__Parker in Uniform": {
+                "start_pos": 2669,
+                "end_pos": 2854,
+                "title": "Parker in Uniform",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208907.mp4__Picnic w/Mame in Arlington": {
+                "start_pos": 2373,
+                "end_pos": 2669,
+                "title": "Picnic w/Mame in Arlington",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208906.mp4__Happy Boy in Crib Playing and Fort": {
+                "start_pos": 2008,
+                "end_pos": 2373,
+                "title": "Happy Boy in Crib Playing and Fort",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208905.mp4__Parker Junior & Senior": {
+                "start_pos": 1493,
+                "end_pos": 2008,
+                "title": "Parker Junior & Senior",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208904.mp4__Boys playing back in Groton": {
+                "start_pos": 1197,
+                "end_pos": 1493,
+                "title": "Boys playing back in Groton",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208903.mp4__Alex's Debut in Florida": {
+                "start_pos": 853,
+                "end_pos": 1197,
+                "title": "Alex's Debut in Florida",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208902.mp4__Justin playing at Home w/Mom": {
+                "start_pos": 597,
+                "end_pos": 853,
+                "title": "Justin playing at Home w/Mom",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            },
+            "richards%20fam%208901.mp4__Off to the Library Downtown Groton": {
+                "start_pos": 0,
+                "end_pos": 597,
+                "title": "Off to the Library Downtown Groton",
+                "mp4_filename": "richards%20fam%2089.mp4"
+            }
+        },
+        "display_title": "Jan-88 to Sep-89"
+    },
+    "Feb-87_to_Mar-87": {
+        "start_date": "Feb-87",
+        "end_date": "Mar-87",
+        "clips": {
+            "1997_02%20-1997_0306.mp4__Hanging with Mom Laundry Helper": {
+                "start_pos": 2083,
+                "end_pos": "UNK",
+                "title": "Hanging with Mom Laundry Helper",
+                "mp4_filename": "1997_02%20-1997_03.mp4"
+            },
+            "1997_02%20-1997_0305.mp4__Sledding Adventure": {
+                "start_pos": 1570,
+                "end_pos": 2083,
+                "title": "Sledding Adventure",
+                "mp4_filename": "1997_02%20-1997_03.mp4"
+            },
+            "1997_02%20-1997_0304.mp4__Crash, Time for Hospital": {
+                "start_pos": 1383,
+                "end_pos": 1570,
+                "title": "Crash, Time for Hospital",
+                "mp4_filename": "1997_02%20-1997_03.mp4"
+            },
+            "1997_02%20-1997_0303.mp4__Helping with Dishes": {
+                "start_pos": 1025,
+                "end_pos": 1383,
+                "title": "Helping with Dishes",
+                "mp4_filename": "1997_02%20-1997_03.mp4"
+            },
+            "1997_02%20-1997_0302.mp4__Eating P&J Painting/Music/Play": {
+                "start_pos": 49,
+                "end_pos": 1025,
+                "title": "Eating P&J Painting/Music/Play",
+                "mp4_filename": "1997_02%20-1997_03.mp4"
+            },
+            "1997_02%20-1997_0301.mp4__Justin at Rest in the Crib": {
+                "start_pos": 0,
+                "end_pos": 49,
+                "title": "Justin at Rest in the Crib",
+                "mp4_filename": "1997_02%20-1997_03.mp4"
+            }
+        },
+        "display_title": "Feb-87 to Mar-87"
+    },
+    "Sep-85_to_Aug-86": {
+        "start_date": "Sep-85",
+        "end_date": "Aug-86",
+        "clips": {
+            "richards%20fam%20sep%20'85%20-%20aug%20'8605.mp4__Christening & B'day Party Groton w/clan": {
+                "start_pos": 3314,
+                "end_pos": "UNK",
+                "title": "Christening & B'day Party Groton w/clan",
+                "mp4_filename": "richards%20fam%20sep%20'85%20-%20aug%20'86.mp4"
+            },
+            "richards%20fam%20sep%20'85%20-%20aug%20'8604.mp4__The Dreaded Christening": {
+                "start_pos": 2724,
+                "end_pos": 3314,
+                "title": "The Dreaded Christening",
+                "mp4_filename": "richards%20fam%20sep%20'85%20-%20aug%20'86.mp4"
+            },
+            "richards%20fam%20sep%20'85%20-%20aug%20'8603.mp4__Papou and Rachel Visit": {
+                "start_pos": 1220,
+                "end_pos": 2724,
+                "title": "Papou and Rachel Visit",
+                "mp4_filename": "richards%20fam%20sep%20'85%20-%20aug%20'86.mp4"
+            },
+            "richards%20fam%20sep%20'85%20-%20aug%20'8602.mp4__Tour of Chemsford w/Nick and Mame": {
+                "start_pos": 92,
+                "end_pos": 1220,
+                "title": "Tour of Chemsford w/Nick and Mame",
+                "mp4_filename": "richards%20fam%20sep%20'85%20-%20aug%20'86.mp4"
+            },
+            "richards%20fam%20sep%20'85%20-%20aug%20'8601.mp4__Mom, Yaya and the new babe": {
+                "start_pos": 0,
+                "end_pos": 92,
+                "title": "Mom, Yaya and the new babe",
+                "mp4_filename": "richards%20fam%20sep%20'85%20-%20aug%20'86.mp4"
+            }
+        },
+        "display_title": "Sep-85 to Aug-86"
+    }
+}

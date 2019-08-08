@@ -1,0 +1,16 @@
+.vjs-progress-control {
+    /* visibility: hidden; */
+}
+
+.video-js .vjs-duration, .vjs-no-flex .vjs-duration {
+    display: inline-block !important;
+}
+
+#video-player {
+    margin: 8rem auto;
+}
+
+#video-player .vjs-big-play-button {
+    left: 50%;
+    transform: translateX(-50%);
+}

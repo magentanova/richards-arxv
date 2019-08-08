@@ -1,0 +1,22 @@
+.clip-collection-grid {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.clip-collection-col {
+    width: 25%;
+    margin: 0;
+    font-size: 0;
+    padding: 16px;
+}
+
+.clip-collection-col > h3 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #ddd;
+}
