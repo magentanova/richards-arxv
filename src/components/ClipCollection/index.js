@@ -9,18 +9,19 @@ const ClipCollection = props => {
 
     const maxHeight = expanded ? Object.keys(props.data.clips).length * 40 + "px" : 0
 
+    const clipsObj = props.data.clips
     return (
         <div className="clip-collection">
             <h3 onClick={toggleExpanded} >{props.title}</h3>
             <ul style={{ maxHeight }} className="clip-links" >
-                {Object.keys(props.data.clips).reverse().map( clipKey => 
+                {Object.keys(clipsObj).sort().map( clipKey => 
                     <li key={clipKey} >
                         <Link 
                             className="clip-link"
                             target="_blank"
-                            to={`/player/${props.data.clips[clipKey].mp4_filename}?startPos=${props.data.clips[clipKey].start_pos}&endPos=${props.data.clips[clipKey].end_pos}&title=${props.data.clips[clipKey].title}`}
+                            to={`/player/${props.collectionId}/${clipsObj[clipKey].index}`}
                             >
-                            {props.data.clips[clipKey].title}
+                            {clipsObj[clipKey].title}
                         </Link>
                     </li>
                 )}

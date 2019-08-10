@@ -18,3 +18,24 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.player-page .tv-screen {
+    position: relative;
+    display: inline-block;
+}
+
+.player-page .nav-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(5);
+    fill: #ccc;
+    cursor: pointer;
+}
+
+.player-page .prev-icon {
+    left: -25%;
+}
+
+.player-page .next-icon {
+    right: -25%;
+}

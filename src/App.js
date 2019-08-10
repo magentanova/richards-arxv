@@ -10,7 +10,7 @@ function App() {
   return (
     <HashRouter>
       <Switch>
-          <Route path='/player/:filename' component={Player}></Route>
+          <Route path='/player/:collectionId/:index' component={Player}></Route>
           <Route path='/' component={ArchivePage}></Route>
       </Switch>
     </HashRouter>
