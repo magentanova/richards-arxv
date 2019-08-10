@@ -6,8 +6,12 @@
     display: inline-block !important;
 }
 
+.player-page h1 {
+    margin-top: 4rem;
+}
+
 #video-player {
-    margin: 8rem auto;
+    margin: 4rem auto;
 }
 
 #video-player .vjs-big-play-button {

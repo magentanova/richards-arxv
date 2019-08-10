@@ -18,7 +18,7 @@ const ClipCollection = props => {
                         <Link 
                             className="clip-link"
                             target="_blank"
-                            to={`/player/${props.data.clips[clipKey].mp4_filename}?startPos=${props.data.clips[clipKey].start_pos}&endPos=${props.data.clips[clipKey].end_pos}`}
+                            to={`/player/${props.data.clips[clipKey].mp4_filename}?startPos=${props.data.clips[clipKey].start_pos}&endPos=${props.data.clips[clipKey].end_pos}&title=${props.data.clips[clipKey].title}`}
                             >
                             {props.data.clips[clipKey].title}
                         </Link>

@@ -763,68 +763,68 @@
         "display_title": "Jun-91 to Sep-91"
     },
     "Jan-88_to_Sep-89": {
-        "start_date": "Jan-88",
+        "start_date": "Dec-88",
         "end_date": "Sep-89",
         "clips": {
-            "richards%20fam%208910.mp4__Ralph & Mame visit Groton": {
+            "1988_12%20-%201989_09.mp4__Ralph & Mame visit Groton": {
                 "start_pos": 3183,
                 "end_pos": "UNK",
                 "title": "Ralph & Mame visit Groton",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208909.mp4__Alex's 1st B'Day w/Richards'": {
+            "1988_12%20-%201989_09.mp4__Alex's 1st B'Day w/Richards'": {
                 "start_pos": 2854,
                 "end_pos": 3183,
                 "title": "Alex's 1st B'Day w/Richards'",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208908.mp4__Parker in Uniform": {
+            "1988_12%20-%201989_09.mp4__Parker in Uniform": {
                 "start_pos": 2669,
                 "end_pos": 2854,
                 "title": "Parker in Uniform",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208907.mp4__Picnic w/Mame in Arlington": {
+            "1988_12%20-%201989_09.mp4__Picnic w/Mame in Arlington": {
                 "start_pos": 2373,
                 "end_pos": 2669,
                 "title": "Picnic w/Mame in Arlington",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208906.mp4__Happy Boy in Crib Playing and Fort": {
+            "1988_12%20-%201989_09.mp4__Happy Boy in Crib Playing and Fort": {
                 "start_pos": 2008,
                 "end_pos": 2373,
                 "title": "Happy Boy in Crib Playing and Fort",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208905.mp4__Parker Junior & Senior": {
+            "1988_12%20-%201989_09.mp4__Parker Junior & Senior": {
                 "start_pos": 1493,
                 "end_pos": 2008,
                 "title": "Parker Junior & Senior",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208904.mp4__Boys playing back in Groton": {
+            "1988_12%20-%201989_09.mp4__Boys playing back in Groton": {
                 "start_pos": 1197,
                 "end_pos": 1493,
                 "title": "Boys playing back in Groton",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208903.mp4__Alex's Debut in Florida": {
+            "1988_12%20-%201989_09.mp4__Alex's Debut in Florida": {
                 "start_pos": 853,
                 "end_pos": 1197,
                 "title": "Alex's Debut in Florida",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208902.mp4__Justin playing at Home w/Mom": {
+            "1988_12%20-%201989_09.mp4__Justin playing at Home w/Mom": {
                 "start_pos": 597,
                 "end_pos": 853,
                 "title": "Justin playing at Home w/Mom",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             },
-            "richards%20fam%208901.mp4__Off to the Library Downtown Groton": {
+            "1988_12%20-%201989_09.mp4__Off to the Library Downtown Groton": {
                 "start_pos": 0,
                 "end_pos": 597,
                 "title": "Off to the Library Downtown Groton",
-                "mp4_filename": "richards%20fam%2089.mp4"
+                "mp4_filename": "1988_12%20-%201989_09.mp4"
             }
         },
         "display_title": "Jan-88 to Sep-89"

@@ -2,10 +2,15 @@ import React, { useEffect } from 'react';
 
 import videojs from 'video.js';
 
+import { PATH_PREFIX } from '../../settings';
 import "./video-js.min.css";
 import './index.css';
 
-import { PATH_PREFIX } from '../../settings';
+const vhs = require('@videojs/http-streaming');
+
+console.log(vhs)
+console.log(videojs)
+
 
 const $ = sel => document.querySelector(sel);
 
@@ -29,9 +34,7 @@ const Player = props => {
             const player = videojs('video-player',
                 { 
                     "controls": true, 
-                    "autoplay": true, 
                     "fullScreen": true,
-                    "liveui": false  ,
                     "preload": "auto" 
                 }, function() {
                     this.currentTime(0);
@@ -84,10 +87,15 @@ const Player = props => {
         }, 25)
     }, [])
     return (
-        <video className='video-js' id="video-player">
-            <source src={PATH_PREFIX + props.match.params.filename} />
-            {/* <source src="https://vjs.zencdn.net/v/oceans.mp4" /> */}
-        </video>
+        <div className="player-page">
+            <h1>{decodeURIComponent(queryParams.title)}</h1>
+            <video className='video-js' id="video-player">
+                {/* <source src={PATH_PREFIX + props.match.params.filename} /> */}
+                <source 
+                    type="video/mp4"
+                    src="https://richards-family-theater.s3.amazonaws.com/clips-by-date-range/1985_09+-+1986_08/1985_09++-+1986_0801.mp4"></source>
+            </video>
+        </div>
     )
 }
 
