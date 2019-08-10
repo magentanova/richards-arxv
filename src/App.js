@@ -11,7 +11,7 @@ function App() {
     <HashRouter>
       <Switch>
           <Route path='/player/:collectionId/:index' component={Player}></Route>
-          <Route path='/' component={ArchivePage}></Route>
+          <Route exact path='/' component={ArchivePage}></Route>
       </Switch>
     </HashRouter>
   );

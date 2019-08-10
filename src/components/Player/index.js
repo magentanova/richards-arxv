@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import clipsManifest from '../../data/clips.json';
-import { ReactComponent as NextIcon } from './next.svg';
-import { ReactComponent as PrevIcon } from './prev.svg';
+import { ReactComponent as NextIcon } from '../../icons/next.svg';
+import { ReactComponent as PrevIcon } from '../../icons/prev.svg';
+import yellowHouse from '../../icons/yellow-house-icon.png';
 import { PATH_PREFIX } from '../../settings';
 import './index.css';
 
@@ -28,10 +29,29 @@ const Player = props => {
     const filename = clipData.mp4_filename
     const parentFolder = filename.split('.mp4')[0].substr(0,filename.length - 6)
         
+
+    const toggleWithSpace = e => {
+        if (e.keyCode === 32) {
+            const video = document.querySelector('video')
+            if (video.paused) {
+                video.play() 
+            }
+            else {
+                video.pause()
+            }
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("keydown", toggleWithSpace)
+        return () => {
+            window.removeEventListener("keydown", toggleWithSpace)
+        }
+    })
     return (
-        <div className="player-page">
-            <Link href="/">
-                <img alt="home" src="public/yellow-house-icon.png" />
+        <div className="player-page page">
+            <Link className="home-link" to="/" >
+                <img alt="home" src={yellowHouse} />
             </Link>
             <h1>{decodeURIComponent(clipData.title)}</h1>
             <div className="tv-screen">
@@ -40,23 +60,24 @@ const Player = props => {
                     autoPlay 
                     key={collectionId + index}
                     id="video-player">
-                    <source type="video/mp4" src={`${PATH_PREFIX}/${parentFolder}/${filename}`} />
-                    {/* <source 
-                        type="video/mp4"
-                        src="https://richards-family-theater.s3.amazonaws.com/clips-by-date-range/1985_09+-+1986_08/1985_09++-+1986_0801.mp4"></source> */}
+                    <source 
+                        type="video/mp4" 
+                        src={`${PATH_PREFIX}/${parentFolder}/${filename}`} />
                 </video>
-                <Link
-                    to={`/player/${collectionId}/${index - 1}`}>
-                    <PrevIcon
-                        style={{visibility: clipSet[index - 1] ? "visible" : "hidden"}} 
-                        className="nav-icon prev-icon" />
-                </Link>
-                <Link
-                    to={`/player/${collectionId}/${index + 1}`}>
-                <NextIcon 
-                    style={{visibility: clipSet[index + 1] ? "visible" : "hidden"}} 
-                    className="nav-icon next-icon" />
-                </Link>
+                <div className="nav-icon-container">
+                    <Link
+                        to={`/player/${collectionId}/${index - 1}`}>
+                        <PrevIcon
+                            style={{visibility: clipSet[index - 1] ? "visible" : "hidden"}} 
+                            className="nav-icon prev-icon" />
+                    </Link>
+                    <Link
+                        to={`/player/${collectionId}/${index + 1}`}>
+                    <NextIcon 
+                        style={{visibility: clipSet[index + 1] ? "visible" : "hidden"}} 
+                        className="nav-icon next-icon" />
+                    </Link>
+                </div>
             </div>
         </div>
     )

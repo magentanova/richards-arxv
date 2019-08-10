@@ -17,7 +17,7 @@ const ArchivePage = () => {
     sortedRanges.forEach((key, i) => {
         if (cols[currentColIndex].length === 6) {
             // add end date to title
-            colTitles[currentColIndex] += clipsManifest[key].end_date
+            colTitles[currentColIndex] += lastEndDate
             currentColIndex ++ 
             // start new title
             colTitles[currentColIndex] = clipsManifest[key].start_date + " through "
@@ -29,11 +29,12 @@ const ArchivePage = () => {
                 title={clipsManifest[key].display_title} 
                 data={clipsManifest[key]} 
             />)
+        lastEndDate = clipsManifest[key].end_date
     });
     colTitles[currentColIndex] += clipsManifest[sortedRanges[sortedRanges.length - 1]].end_date
     colTitles = colTitles.map(title => title.replace(/-/g,"‑"))
     return (
-        <div className="archive-page">
+        <div className="archive-page page">
             <Header />
             <div className="clip-collection-grid">
                 {cols.map((col,i) => 

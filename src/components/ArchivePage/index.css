@@ -14,6 +14,13 @@
     padding: 16px;
 }
 
+@media (max-width: 768px) {
+    .clip-collection-col {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
 .clip-collection-col > h3 {
     font-size: 24px;
     font-weight: normal;

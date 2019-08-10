@@ -22,7 +22,7 @@
     padding: 0;
     margin: 0;
     overflow: hidden;
-    transition: max-height .5s ease;
+    transition: max-height .75s ease;
 }
 
 .clip-collection ul li {

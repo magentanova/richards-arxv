@@ -13,3 +13,11 @@ body {
 h3 {
   font-size: 22px;
 }
+
+img, video {
+  max-width: 100%;
+}
+
+.page {
+  padding-bottom: 64px;
+}

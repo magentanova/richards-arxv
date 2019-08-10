@@ -7,7 +7,7 @@ const ClipCollection = props => {
     const [ expanded, setExpanded ] = useState(false);
     const toggleExpanded = () => setExpanded(!expanded)
 
-    const maxHeight = expanded ? Object.keys(props.data.clips).length * 40 + "px" : 0
+    const maxHeight = expanded ? Object.keys(props.data.clips).length * 60 + "px" : 0
 
     const clipsObj = props.data.clips
     return (
@@ -18,7 +18,6 @@ const ClipCollection = props => {
                     <li key={clipKey} >
                         <Link 
                             className="clip-link"
-                            target="_blank"
                             to={`/player/${props.collectionId}/${clipsObj[clipKey].index}`}
                             >
                             {clipsObj[clipKey].title}
