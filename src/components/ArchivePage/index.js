@@ -15,7 +15,7 @@ const ArchivePage = () => {
     const sortedRanges = Object.keys(clipsManifest).reverse()
     colTitles[0] = clipsManifest[sortedRanges[0]].start_date + " through "
     sortedRanges.forEach((key, i) => {
-        if (cols[currentColIndex].length === 6) {
+        if (cols[currentColIndex].length === 5) {
             // add end date to title
             colTitles[currentColIndex] += lastEndDate
             currentColIndex ++ 

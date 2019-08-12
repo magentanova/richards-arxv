@@ -14,7 +14,7 @@ const ClipCollection = props => {
         <div className="clip-collection">
             <h3 onClick={toggleExpanded} >{props.title}</h3>
             <ul style={{ maxHeight }} className="clip-links" >
-                {Object.keys(clipsObj).sort().map( clipKey => 
+                {Object.keys(clipsObj).sort((a,b) => parseInt(a) > parseInt(b) ).map( clipKey => 
                     <li key={clipKey} >
                         <Link 
                             className="clip-link"

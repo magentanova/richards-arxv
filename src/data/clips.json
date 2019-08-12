@@ -5,17 +5,17 @@
         "clips": {
             "1": {
                 "title": "Spongedock Shenanagins",
-                "mp4_filename": "2003_07%20-%202004_0201.mp4",
+                "mp4_filename": "2003_09%20-%202004_0401.mp4",
                 "index": 1
             },
             "2": {
                 "title": "Ridgewood Shenanagins",
-                "mp4_filename": "2003_07%20-%202004_0202.mp4",
+                "mp4_filename": "2003_09%20-%202004_0402.mp4",
                 "index": 2
             },
             "3": {
                 "title": "Ridgewood Christmas",
-                "mp4_filename": "2003_07%20-%202004_0203.mp4",
+                "mp4_filename": "2003_09%20-%202004_0403.mp4",
                 "index": 3
             }
         },
@@ -566,105 +566,136 @@
         },
         "display_title": "Jun-92 to Mar-93"
     },
-    "Oct-91_to_Feb-92": {
-        "start_date": "Oct-91",
-        "end_date": "Feb-92",
-        "clips": {
-            "10": {
-                "title": "Boys Goofing Dancing in Kitchen, Christmas w/Ruthie",
-                "mp4_filename": "1991_06%20-%201991_1210.mp4",
-                "index": 10
-            },
-            "11": {
-                "title": "Puzzles & Mathw/Dad,�\n  Justin Teaching, w/ disclosure statement",
-                "mp4_filename": "1991_06%20-%201991_1211.mp4",
-                "index": 11
-            },
-            "12": {
-                "title": "Making Cookies w/Mom",
-                "mp4_filename": "1991_06%20-%201991_1212.mp4",
-                "index": 12
-            },
-            "13": {
-                "title": "Great Halloween Caper",
-                "mp4_filename": "1991_06%20-%201991_1213.mp4",
-                "index": 13
-            },
-            "14": {
-                "title": "Alex wants to go outside (from ~'89)",
-                "mp4_filename": "1991_06%20-%201991_1214.mp4",
-                "index": 14
-            }
-        },
-        "display_title": "Oct-91 to Feb-92"
-    },
-    "Aug-91_to_Oct-91": {
-        "start_date": "Aug-91",
-        "end_date": "Oct-91",
-        "clips": {
-            "7": {
-                "title": "Justin's 6th B/day w/kids",
-                "mp4_filename": "1991_06%20-%201991_1207.mp4",
-                "index": 7
-            },
-            "8": {
-                "title": "Duane & Tracy Wachussett Mt.",
-                "mp4_filename": "1991_06%20-%201991_1208.mp4",
-                "index": 8
-            },
-            "9": {
-                "title": "Arlington w/Art",
-                "mp4_filename": "1991_06%20-%201991_1209.mp4",
-                "index": 9
-            }
-        },
-        "display_title": "Aug-91 to Oct-91"
-    },
-    "Jun-91_to_Sep-91": {
+    "Jun-91_to_Feb-92": {
         "start_date": "Jun-91",
-        "end_date": "Sep-91",
+        "end_date": "Feb-92",
         "clips": {
             "1": {
                 "title": "Flexiblocks Boogie",
-                "mp4_filename": "1991_06%20-%201991_1201.mp4",
+                "mp4_filename": "1991_06%20-%201992_0201.mp4",
                 "index": 1
             },
             "2": {
                 "title": "Camp by the Bay",
-                "mp4_filename": "1991_06%20-%201991_1202.mp4",
+                "mp4_filename": "1991_06%20-%201992_0202.mp4",
                 "index": 2
             },
             "3": {
                 "title": "Stone Soup Justin's 1st Performance",
-                "mp4_filename": "1991_06%20-%201991_1203.mp4",
+                "mp4_filename": "1991_06%20-%201992_0203.mp4",
                 "index": 3
             },
             "4": {
                 "title": "Parker's last visit to Groton",
-                "mp4_filename": "1991_06%20-%201991_1204.mp4",
+                "mp4_filename": "1991_06%20-%201992_0204.mp4",
                 "index": 4
             },
             "5": {
                 "title": "Cape Beach Dennis w/Grandma",
-                "mp4_filename": "1991_06%20-%201991_1205.mp4",
+                "mp4_filename": "1991_06%20-%201992_0205.mp4",
                 "index": 5
             },
             "6": {
                 "title": "Playing Life w/Art",
-                "mp4_filename": "1991_06%20-%201991_1206.mp4",
+                "mp4_filename": "1991_06%20-%201992_0206.mp4",
                 "index": 6
+            },
+            "7": {
+                "title": "Justin's 6th B/day w/kids",
+                "mp4_filename": "1991_06%20-%201992_0207.mp4",
+                "index": 7
+            },
+            "8": {
+                "title": "Duane & Tracy Wachussett Mt.",
+                "mp4_filename": "1991_06%20-%201992_0208.mp4",
+                "index": 8
+            },
+            "9": {
+                "title": "Arlington w/Art",
+                "mp4_filename": "1991_06%20-%201992_0209.mp4",
+                "index": 9
+            },
+            "10": {
+                "title": "Boys Goofing Dancing in Kitchen, Christmas w/Ruthie",
+                "mp4_filename": "1991_06%20-%201992_0210.mp4",
+                "index": 10
+            },
+            "11": {
+                "title": "Puzzles & Mathw/Dad,\n  Justin Teaching, w/ disclosure statement",
+                "mp4_filename": "1991_06%20-%201992_0211.mp4",
+                "index": 11
+            },
+            "12": {
+                "title": "Making Cookies w/Mom",
+                "mp4_filename": "1991_06%20-%201992_0212.mp4",
+                "index": 12
+            },
+            "13": {
+                "title": "Great Halloween Caper",
+                "mp4_filename": "1991_06%20-%201992_0213.mp4",
+                "index": 13
             }
         },
-        "display_title": "Jun-91 to Sep-91"
+        "display_title": "Jun-91 to Feb-92"
     },
     "Jan-88_to_Sep-89": {
         "start_date": "Dec-88",
         "end_date": "Sep-89",
         "clips": {
+            "11": {
+                "title": "Alex wants to go outside ",
+                "mp4_filename": "1988_12%20-%201989_0911.mp4",
+                "index": 11
+            },
+            "10": {
+                "index": 10,
+                "title": "Ralph & Mame visit Groton",
+                "mp4_filename": "1988_12%20-%201989_0910.mp4"
+            },
             "9": {
+                "index": 9,
+                "title": "Alex's 1st B'Day w/Richards'",
+                "mp4_filename": "1988_12%20-%201989_0909.mp4"
+            },
+            "8": {
+                "index": 8,
+                "title": "Parker in Uniform",
+                "mp4_filename": "1988_12%20-%201989_0908.mp4"
+            },
+            "7": {
+                "index": 7,
+                "title": "Picnic w/Mame in Arlington",
+                "mp4_filename": "1988_12%20-%201989_0907.mp4"
+            },
+            "6": {
+                "index": 6,
+                "title": "Happy Boy in Crib Playing and Fort",
+                "mp4_filename": "1988_12%20-%201989_0906.mp4"
+            },
+            "5": {
+                "index": 5,
+                "title": "Parker Junior & Senior",
+                "mp4_filename": "1988_12%20-%201989_0905.mp4"
+            },
+            "4": {
+                "index": 4,
+                "title": "Boys playing back in Groton",
+                "mp4_filename": "1988_12%20-%201989_0904.mp4"
+            },
+            "3": {
+                "index": 3,
+                "title": "Alex's Debut in Florida",
+                "mp4_filename": "1988_12%20-%201989_0903.mp4"
+            },
+            "2": {
+                "index": 2,
+                "title": "Justin playing at Home w/Mom",
+                "mp4_filename": "1988_12%20-%201989_0902.mp4"
+            },
+            "1": {
+                "index": 1,
                 "title": "Off to the Library Downtown Groton",
-                "mp4_filename": "1988_12%20-%201989_09.mp4",
-                "index": 9
+                "mp4_filename": "1988_12%20-%201989_0901.mp4"
             }
         },
         "display_title": "Jan-88 to Sep-89"
@@ -675,32 +706,32 @@
         "clips": {
             "1": {
                 "title": "Justin at Rest in the Crib",
-                "mp4_filename": "1997_02%20-1997_0301.mp4",
+                "mp4_filename": "1987_02%20-%201987_0301.mp4",
                 "index": 1
             },
             "2": {
                 "title": "Eating P&J Painting/Music/Play",
-                "mp4_filename": "1997_02%20-1997_0302.mp4",
+                "mp4_filename": "1987_02%20-%201987_0302.mp4",
                 "index": 2
             },
             "3": {
                 "title": "Helping with Dishes",
-                "mp4_filename": "1997_02%20-1997_0303.mp4",
+                "mp4_filename": "1987_02%20-%201987_0303.mp4",
                 "index": 3
             },
             "4": {
                 "title": "Crash, Time for Hospital",
-                "mp4_filename": "1997_02%20-1997_0304.mp4",
+                "mp4_filename": "1987_02%20-%201987_0304.mp4",
                 "index": 4
             },
             "5": {
                 "title": "Sledding Adventure",
-                "mp4_filename": "1997_02%20-1997_0305.mp4",
+                "mp4_filename": "1987_02%20-%201987_0305.mp4",
                 "index": 5
             },
             "6": {
                 "title": "Hanging with Mom Laundry Helper",
-                "mp4_filename": "1997_02%20-1997_0306.mp4",
+                "mp4_filename": "1987_02%20-%201987_0306.mp4",
                 "index": 6
             }
         },
