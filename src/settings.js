@@ -2,4 +2,4 @@
 
 // export const PATH_PREFIX = "/"
 
-export const PATH_PREFIX = "https://richards-family-theater.s3.amazonaws.com/clips-by-date-range"
+export const PATH_PREFIX = "https://isa-arxv.s3.amazonaws.com/:w"
