@@ -27,7 +27,7 @@ const Player = props => {
 
     // derive folder name from filename according to (fragile?) convention
     const filename = clipData.mp4_filename
-    const parentFolder = filename.split('.mp4')[0].substr(0,filename.length - 6)
+    const parentFolder = collectionId
         
 
     const toggleWithSpace = e => {
