@@ -3,27 +3,47 @@ import { Link } from 'react-router-dom';
 
 import './index.css';
 
+const VIDEO_TYPE = "video";
+const IMAGE_TYPE = "photo";
+
 const ClipCollection = props => {
     const [ expanded, setExpanded ] = useState(false);
     const toggleExpanded = () => setExpanded(!expanded)
 
-    const maxHeight = expanded ? Object.keys(props.data.clips).length * 60 + "px" : 0
+    let contentCount = 0;
+    if (props.data[VIDEO_TYPE]) {
+        contentCount += Object.keys(props.data[VIDEO_TYPE]).length + 1;
+    } 
+    if (props.data[IMAGE_TYPE]) {
+        contentCount += Object.keys(props.data[IMAGE_TYPE]).length + 1;
+    }
+    const maxHeight = expanded ? contentCount * 60 + "px" : 0;
 
-    const clipsObj = props.data.clips
+    const types = Object.keys(props.data);
     return (
         <div className="clip-collection">
             <h3 onClick={toggleExpanded} >{props.title}</h3>
             <ul style={{ maxHeight }} className="clip-links" >
-                {Object.keys(clipsObj).sort((a,b) => parseInt(a) > parseInt(b) ).map( clipKey => 
-                    <li key={clipKey} >
-                        <Link 
-                            className="clip-link"
-                            to={`/player/${props.collectionId}/${clipsObj[clipKey].index}`}
-                            >
-                            {clipsObj[clipKey].title}
-                        </Link>
-                    </li>
-                )}
+                {types.map(type => 
+                    <div className="type-group">
+                        <h4 className="type-heading">{type}</h4>
+                        <div></div>
+                        {Object.keys(props.data[type]).sort().map(order => {
+                            const mediaObj = props.data[type][order];
+                            console.log(mediaObj)
+                            return (
+                                <li>
+                               <Link 
+                                    className="clip-link"
+                                    to={`/${type}/${props.collectionId}/${order}`}
+                                >
+                                    {mediaObj.title}
+                                </Link>
+                                </li>
+                            )
+                        })}
+                    </div>
+                )}                
             </ul>
         </div>
     );

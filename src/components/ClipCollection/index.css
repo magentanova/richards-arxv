@@ -31,6 +31,10 @@
 
 .clip-collection ul li a {
     color: #ccc;
-    padding: .5rem 0;
+    padding: .5rem .5rem;
     display: inline-block;
+}
+
+.clip-collection .type-header {
+    margin-bottom: 0;
 }
