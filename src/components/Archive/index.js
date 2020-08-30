@@ -15,8 +15,8 @@ const Archive = props => {
             Object.keys(archive[year]).map(category => 
                 <ClipCollection 
                 key={category} 
-                collectionId={category} 
-                title={category} 
+                year={year} 
+                category={category}
                 data={archive[year][category]} 
             />)
         )

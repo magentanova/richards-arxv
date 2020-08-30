@@ -11,9 +11,11 @@ const UPLOAD_URL = `${API_ROOT}/upload`;
 
 const Uploader = props => {
     const [ categories, setCategories ] = useState(
-        getAllCategories(props.s3Objects)
+        props.categories
     )
     const displayCategories = categories.sort().concat([NEW_CATEGORY])
+
+    console.log(categories);
 
     const [ year, setYear ] = useState(undefined);
     const [ category, setCategory ] = useState(undefined);

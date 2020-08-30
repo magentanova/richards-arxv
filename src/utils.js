@@ -1,17 +1,27 @@
-export const getAllCategories = s3Objects => {
-    const pat = /.+?\/(.+?)\//i;
-    const categories = [];
-    s3Objects.Contents.forEach(object => {
-        const match = pat.exec(object.Key)
-        if (match) {
-            categories.push(match[1])
-        }
+import { API_ROOT } from './settings';
+
+const FETCH_URL = `${API_ROOT}/list/all`;
+
+export const fetchArchive = () => 
+    fetch(FETCH_URL)
+        .then(
+            result => result.json(),
+            err => console.log(err)
+        )
+        .then(
+            json => parseS3Objects(json)
+        );
+
+
+export const getAllCategories = archive => {
+    const categories = new Set();
+    Object.keys(archive).forEach(year => {
+        Object.keys(archive[year]).forEach(category => categories.add(category))
     })
-    return categories;
+    return Array.from(categories);
 }
 
 export const parseS3Objects = s3Objects => {
-    console.log(s3Objects);
     // year/category/type/order/filename
     const pat = /(.+?)\/(.+?)\/(.+?)\/(.+?)\/(.+?)$/i;
     const archive = {};

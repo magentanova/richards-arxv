@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom'
 
-import Player from './components/Player';
+import PlayerPage from './components/PlayerPage';
 import ArchivePage from './components/ArchivePage';
 import UploadPage from './components/UploadPage';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <HashRouter>
       <Switch>
-        <Route path='/player/:collectionId/:index' component={Player}></Route>
+        <Route path='/view/:year/:category/:type/:order' component={PlayerPage}></Route>
         <Route path='/upload' component={UploadPage}></Route>
         <Route exact path='/' component={ArchivePage}></Route>
       </Switch>

@@ -1,38 +1,28 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import clipsManifest from '../../data/clips.json';
 import { ReactComponent as NextIcon } from '../../icons/next.svg';
 import { ReactComponent as PrevIcon } from '../../icons/prev.svg';
 import yellowHouse from '../../icons/yellow-house-icon.png';
+import withLoader from '../hoc/withLoader';
 import { PATH_PREFIX } from '../../settings';
 import './index.css';
 
-// const parseParams = paramString => {
-//     const paramsObj = {};
-//     const pairs = paramString.substr(1).split('&');
-//     pairs.forEach(pair => {
-//         const keyVal = pair.split('=');
-//         paramsObj[keyVal[0]] = keyVal[1];
-//     })
-//     return paramsObj
-// }
-
 const Player = props => {
-    // get clip data from manifest
-    const collectionId = props.match.params.collectionId
-    const index = parseInt(props.match.params.index)
-    const clipSet = clipsManifest[collectionId].clips
-    const clipData = clipSet[index]
+    let {
+        year, category, type, order 
+     } = props.match.params;
 
-    // derive folder name from filename according to (fragile?) convention
-    const filename = clipData.mp4_filename
-    const parentFolder = collectionId
-        
+    order = parseInt(order);
+    const relatedIndexes = Object.keys(props.archive[year][category][type]).map(idx => parseInt(idx));
+    const fileData = props.archive[year][category][type][order];
 
     const toggleWithSpace = e => {
         if (e.keyCode === 32) {
             const video = document.querySelector('video')
+            if (!video) {
+                return;
+            }
             if (video.paused) {
                 video.play() 
             }
@@ -48,33 +38,37 @@ const Player = props => {
             window.removeEventListener("keydown", toggleWithSpace)
         }
     })
+
+    const viewer = type === "video" ? 
+        <video
+            controls 
+            autoPlay 
+            key={category + order}
+            id="video-player">
+            <source 
+                type="video/mp4" 
+                src={`${PATH_PREFIX}/${fileData.key}`} />
+        </video> :
+        <img alt={fileData.title} src={`${PATH_PREFIX}/${fileData.key}`} />
     return (
         <div className="player-page page">
             <Link className="home-link" to="/" >
                 <img alt="home" src={yellowHouse} />
             </Link>
-            <h1>{decodeURIComponent(clipData.title)}</h1>
+            <h1>{decodeURIComponent(fileData.title)}</h1>
             <div className="tv-screen">
-                <video
-                    controls 
-                    autoPlay 
-                    key={collectionId + index}
-                    id="video-player">
-                    <source 
-                        type="video/mp4" 
-                        src={`${PATH_PREFIX}/${parentFolder}/${filename}`} />
-                </video>
+                {viewer}
                 <div className="nav-icon-container">
                     <Link
-                        to={`/player/${collectionId}/${index - 1}`}>
+                        to={`/view/${year}/${category}/${type}/${order - 1}`}>
                         <PrevIcon
-                            style={{visibility: clipSet[index - 1] ? "visible" : "hidden"}} 
+                            style={{visibility: relatedIndexes[order - 1] ? "visible" : "hidden"}} 
                             className="nav-icon prev-icon" />
                     </Link>
                     <Link
-                        to={`/player/${collectionId}/${index + 1}`}>
+                        to={`/view/${year}/${category}/${type}/${order + 1}`}>
                     <NextIcon 
-                        style={{visibility: clipSet[index + 1] ? "visible" : "hidden"}} 
+                        style={{visibility: relatedIndexes[order + 1] ? "visible" : "hidden"}} 
                         className="nav-icon next-icon" />
                     </Link>
                 </div>
@@ -84,4 +78,4 @@ const Player = props => {
 }
 
 
-export default Player;
+export default withLoader(Player);
