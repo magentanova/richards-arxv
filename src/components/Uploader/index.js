@@ -5,6 +5,8 @@ import withLoader from '../hoc/withLoader';
 import { API_ROOT } from '../../settings';
 import { getAllCategories } from '../../utils';
 
+import "./index.css";
+
 const NEW_CATEGORY = "New Category";
 const MEDIA_TYPES = ["photo", "video"];
 const UPLOAD_URL = `${API_ROOT}/upload`;
@@ -15,15 +17,17 @@ const Uploader = props => {
     )
     const displayCategories = categories.sort().concat([NEW_CATEGORY])
 
-    console.log(categories);
-
     const [ year, setYear ] = useState(undefined);
     const [ category, setCategory ] = useState(undefined);
     const [ type, setType ] = useState(undefined);
     const [ order, setOrder ] = useState(undefined);
     const [ title, setTitle ] = useState(undefined);
+    const [ file, setFile ] = useState(undefined);
 
-    const handleOrderInput = useCallback(e => setOrder(e.target.value), []);
+    const handleOrderInput = useCallback(e => {
+        console.log(e.target.value);
+        setOrder(e.target.value)
+    }, []);
     const handleTitleInput = useCallback(e => setTitle(e.target.value), [])
 
     const handleCategoryInput = e => {
@@ -35,47 +39,44 @@ const Uploader = props => {
     }
 
     const handleFileUpload = e => {
-        const file = e.target.files[0];
-        const reader = new FileReader();
-        reader.onload = event => {
-            const requestBody = {
-                year,
-                category,
-                type,
-                order,
-                title,
-                body: event.target.result,
-                filename: file.name
-            };
-            fetch(UPLOAD_URL, {
-                headers: {
-                    'Content-Type': 'application/json'
-                  },
-                method: "POST",
-                body: JSON.stringify(requestBody)
-            })
-            .then(
-                resp => resp.json(),
-                err => console.error(err)
-            )
-            .then(
-                resp => {
-                    alert("success!");
-                    console.log(resp)
-                }
-            )
-        };
-        reader.readAsDataURL(file);
+        setFile(e.target.files[0]);
     }
+
+    const handleSubmit = e => {
+        const formData = new FormData();
+        formData.append("year", year);
+        formData.append("category", category);
+        formData.append("type", type);
+        formData.append("order", order);
+        formData.append("title", title);
+        formData.append("filename", file.name);
+        formData.append("file", file);
+        fetch(UPLOAD_URL, {
+            method: "POST",
+            body: formData
+        })
+        .then(
+            resp => resp.json(),
+            err => console.error(err)
+        )
+        .then(
+            resp => {
+                alert("success!");
+                console.log(resp)
+            }
+        )
+    };
 
     const showFileUpload = 
         year !== undefined &&
         category !== undefined &&
         type !== undefined &&
-        order !== undefined
+        order !== undefined;
+
+    const showSubmitButton = showFileUpload && file !== undefined;
 
     return (
-        <div>
+        <div className="upload-container">
             <SelectGroup 
                 label="Year"
                 selectId="year-select" 
@@ -116,7 +117,10 @@ const Uploader = props => {
                 style={{display: showFileUpload ? "block" : "none"}}
                 onChange={handleFileUpload}
                 type="file"/>
-
+            <button 
+                disabled={!showSubmitButton}
+                onClick={handleSubmit}
+            >Upload!</button>
         </div>
     );
 }

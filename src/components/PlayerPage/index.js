@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import Player from '../Player';
+import Footer from '../Footer';
 import { fetchArchive } from '../../utils';
 
 const PlayerPage = props => {
@@ -15,6 +16,7 @@ const PlayerPage = props => {
                 archive={archive}
                 match={props.match}
             />
+            <Footer />
         </div>
     )
 }

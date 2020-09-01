@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+import Footer from '../Footer';
 import Header from '../Header';
 import Uploader from '../Uploader';
-import { API_ROOT } from '../../settings';
 import { fetchArchive, getAllCategories } from '../../utils';
 
 const UploadPage = props => {
@@ -17,6 +17,7 @@ const UploadPage = props => {
         <div className="uploader-page">
             <Header />
             <Uploader loaded={categories !== null} categories={categories} />
+            <Footer />
         </div>
     )
 }

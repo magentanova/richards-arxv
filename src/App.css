@@ -21,3 +21,13 @@ img, video {
 .page {
   padding-bottom: 64px;
 }
+
+.footer .home-link {
+  width: 24px;
+  bottom: 18px;
+  left: 18px;
+  position: fixed;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
