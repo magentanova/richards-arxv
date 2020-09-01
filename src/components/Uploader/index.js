@@ -24,8 +24,7 @@ const Uploader = props => {
     const [ file, setFile ] = useState(undefined);
 
     const handleOrderInput = useCallback(e => {
-        console.log(e.target.value);
-        setOrder(e.target.value)
+        setOrder(e.target.value);
     }, []);
     const handleTitleInput = useCallback(e => setTitle(e.target.value), [])
 
@@ -61,7 +60,6 @@ const Uploader = props => {
         .then(
             resp => {
                 alert("success!");
-                console.log(resp)
             }
         )
     };
