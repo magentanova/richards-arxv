@@ -67,6 +67,7 @@ const Uploader = props => {
     const showFileUpload = 
         year !== undefined &&
         category !== undefined &&
+        category !== NEW_CATEGORY && 
         type !== undefined &&
         order !== undefined;
 
