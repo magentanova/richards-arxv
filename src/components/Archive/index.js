@@ -2,7 +2,6 @@ import React from 'react';
 
 import ClipCollection from '../ClipCollection';
 import withLoader from '../hoc/withLoader';
-import clipsManifest from '../../data/clips.json';
 
 import './index.css';
 

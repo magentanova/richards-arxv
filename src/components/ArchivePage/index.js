@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 
 import Header from '../Header';
 import Archive from '../Archive';
-import { API_ROOT } from '../../settings';
 import { fetchArchive } from '../../utils';
 
 const ArchivePage = () => {

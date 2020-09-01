@@ -3,7 +3,6 @@ import React, { useCallback, useState } from 'react';
 import SelectGroup from '../SelectGroup';
 import withLoader from '../hoc/withLoader';
 import { API_ROOT } from '../../settings';
-import { getAllCategories } from '../../utils';
 
 import "./index.css";
 
