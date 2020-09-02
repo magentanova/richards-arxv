@@ -55,13 +55,27 @@ const Uploader = props => {
         })
         .then(
             resp => resp.json(),
-            err => console.error(err)
+            err => {
+                console.error(err);
+                alert(err);
+            }
         )
         .then(
             resp => {
-                alert("success!");
+                console.log(resp)
+                if (resp.error) {
+                    console.error(resp.error);
+                    alert(resp.error); 
+                }
+                else {
+                    alert("success!");
+                }
             }
         )
+        .catch(err => {
+            console.log(err);
+            alert("An unknown error has occurred");
+        })
     };
 
     const showFileUpload = 
