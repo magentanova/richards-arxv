@@ -5,7 +5,9 @@ import withLoader from '../hoc/withLoader';
 import { API_ROOT } from '../../settings';
 
 import "./index.css";
+import Loader from '../Loader';
 
+const ACCEPTABLE_FILE_EXTENSIONS = ".png,.jpg,.jpeg,.gif,.mov,.mp4,.wav,.mp3,.ogg";
 const NEW_CATEGORY = "New Category";
 const MEDIA_TYPES = ["photo", "video"];
 const UPLOAD_URL = `${API_ROOT}/upload`;
@@ -22,6 +24,7 @@ const Uploader = props => {
     const [ order, setOrder ] = useState(undefined);
     const [ title, setTitle ] = useState(undefined);
     const [ file, setFile ] = useState(undefined);
+    const [ uploading, setUploading ] = useState(false);
 
     const handleOrderInput = useCallback(e => {
         setOrder(e.target.value);
@@ -41,6 +44,7 @@ const Uploader = props => {
     }
 
     const handleSubmit = e => {
+        setUploading(true);
         const formData = new FormData();
         formData.append("year", year);
         formData.append("category", category);
@@ -54,8 +58,12 @@ const Uploader = props => {
             body: formData
         })
         .then(
-            resp => resp.json(),
+            resp => {
+                setUploading(false);
+                return resp.json()
+            },
             err => {
+                setUploading(false);
                 console.error(err);
                 alert(err);
             }
@@ -73,6 +81,7 @@ const Uploader = props => {
             }
         )
         .catch(err => {
+            setUploading(false);
             console.log(err);
             alert("An unknown error has occurred");
         })
@@ -128,11 +137,13 @@ const Uploader = props => {
             <input 
                 style={{display: showFileUpload ? "block" : "none"}}
                 onChange={handleFileUpload}
+                accept={ACCEPTABLE_FILE_EXTENSIONS}
                 type="file"/>
             <button 
                 disabled={!showSubmitButton}
                 onClick={handleSubmit}
             >Upload!</button>
+            <Loader show={uploading} />
         </div>
     );
 }
